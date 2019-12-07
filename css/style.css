@@ -1,0 +1,143 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body {
+	background: #f5f6fa;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* FullWidth Section Start */
+.promo-boxes-wrap {
+  margin-left: -15px;
+  overflow: hidden;
+}
+.single-promo-box {
+	height: 350px;
+	float: left;
+	width: 50%;
+	display: table;
+	text-align: center;
+	background-color: #fff;
+}
+.single-promo-box:nth-child(2) {
+  background-color: #d8889b;
+}
+.promo-box-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 70px;
+  transition: .3s;
+}
+.single-promo-box:nth-child(3) {
+  background-color: #7dbace;
+}
+.promo-box-tablecell i {
+  font-size: 70px;
+}
+.single-promo-box h2 {
+  font-weight: 900;
+  font-size: 28px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+.boxed-btn {
+  background-color: #7dbace;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.single-promo-box h2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  left: 50%;
+  bottom: 0;
+  background: #d8889b;
+  margin-left: -25px;
+}
+	/*Animate div */
+.single-promo-box .boxed-btn {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.single-promo-box:hover .promo-box-tablecell {
+  padding-top: 0;
+}
+.single-promo-box:hover .boxed-btn {
+  opacity: 1;
+  visibility: visible;
+}
+	/*Animate button */
+.single-promo-box:nth-child(2), .single-promo-box:nth-child(3) {
+  color: #fff;
+}
+.single-promo-box:nth-child(2) h2:after, .single-promo-box:nth-child(3) h2:after {
+  background: #fff;
+}
+.single-promo-box:nth-child(4) h2:after {
+  background: #7dbace;
+}
+.single-promo-box:nth-child(4) .promo {
+}
+.single-promo-box:nth-child(4) .promo-box-tablecell i {
+  color: #7dbace;
+}
+.single-promo-box:nth-child(2) .boxed-btn, .single-promo-box:nth-child(3) .boxed-btn {
+  background: #fff;
+  color: #000;
+}
+	/* Animate Close*/
+.right-side-content {
+	padding: 123px 50px;
+	/* padding-left: 50px; */
+}
+.section-title h3 {
+  font-style: italic;
+  font-weight: 400;
+  color: #7dbac8;
+  font-family: "sans-serif";
+}
+.section-title h2 {
+  font-weight: 700;
+  color: #999;
+  font-size: 35px;
+}
+.right-side-content h4 {
+  font-weight: 400;
+  margin-top: 35px;
+}
+.right-side-content p {
+  color: #777;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.section-btns {
+  font-weight: 700;
+}
+.bordered-btn {
+  border: 1px solid #7dbac8;
+  padding: 15px 45px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+/* FullWidth Section Stop */
